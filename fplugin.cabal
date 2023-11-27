@@ -68,7 +68,7 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    
-       base ^>=4.16.4.0,
+       base,
        bytestring,
        ghc,
        process
@@ -96,7 +96,7 @@ executable fplugin
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.16.4.0,
+        base,
         fplugin
 
     -- Directories containing source files.
